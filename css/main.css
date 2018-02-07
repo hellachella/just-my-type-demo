@@ -1,0 +1,81 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #fe001a, red);
+  background-size: cover;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.serif {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold
+}
+
+.sans-serif {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.text-red {
+  color: #fe001a;
+}
+
+body {
+    padding: 2em;
+    background-repeat: no-repeat;
+}
+
+
+.spaceout {
+  letter-spacing:.1em;
+
+}
+.strike {
+  text-decoration:line-through;
+}
+.main-1 {
+
+  background-color: #fff;
+  margin: 2em auto;
+  max-width: 40em;
+  border-radius: 55px 55px 55px 0;
+  transition: all 500ms ease-in;
+}
+
+.main-2 {
+
+  background-color: #fff;
+  margin: 2em auto;
+  max-width: 30em;
+  border-radius: 55px 55px 0 55px;
+  transition: all 500ms ease-in;
+}
+
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: black;
+
+}
+.lh-0 {
+  line-height: .75;
+}
+@media only screen and (min-width: 60em)  {
+
+  html {
+    background: #000;
+}
+.spaceout {
+  color: red;
+}
+}
